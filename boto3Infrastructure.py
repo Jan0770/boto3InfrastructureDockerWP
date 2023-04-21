@@ -148,7 +148,7 @@ def create_infrastructure():
         instance[0].wait_until_running()
         instance[0].reload()
 
-        # A conformation that the script ran successfully, an overview of the EC2 and VPC
+        # A conformation that the script ran successfully
         print("Successfully build the infrastructure.")
 
     # If the try block throws an error, the following code will catch that and print the error message to the console
