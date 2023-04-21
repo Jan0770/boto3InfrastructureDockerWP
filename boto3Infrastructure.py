@@ -149,11 +149,7 @@ def create_infrastructure():
         instance[0].reload()
 
         # A conformation that the script ran successfully, an overview of the EC2 and VPC
-        print("Successfully build the infrastructure."
-              #"Public IP: " + public_ip + "\n"
-              #"Instance: \n" + instance + "\n"
-              #"VPC: \n" + vpc + "\n"
-        )
+        print("Successfully build the infrastructure.")
 
     # If the try block throws an error, the following code will catch that and print the error message to the console
     # Additionally, resources set up during the failed build attempt will be terminated
